@@ -1,0 +1,14 @@
+.nav-1{
+    height: 100px;
+    width: 100px;
+    margin-top:50px;
+
+}
+.nav-2{
+    position: relative;
+    display: flex;
+    justify-content:center;
+}
+nav-btn1 {
+
+}

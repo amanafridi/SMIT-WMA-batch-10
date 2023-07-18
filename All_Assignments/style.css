@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    background-image: url(/picture/12.jpg);
+    background-repeat: no-repeat;
+    background-size:100% ;
+}
+
+.header{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.html{
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    box-shadow: 0 2px 9px 0 rgba(0,0,0,.20), inset 0 -9px 0 0 #D4D1CA;
+    padding-right: 30px;
+}
+.css{
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    box-shadow: 0 2px 9px 0 rgba(0,0,0,.20), inset 0 -9px 0 0 #D4D1CA;
+    padding-right: 30px;
+}
+.html>ul>li , .css>ul>li{
+    list-style-type: none;
+    color: white;
+}
+.html>ul>li>a , .css>ul>li>a {
+    color: white;
+    text-decoration: none;
+}
