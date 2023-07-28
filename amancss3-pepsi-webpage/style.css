@@ -196,3 +196,35 @@ body {
     margin: 51px 0px 25px 0px;
 }
 
+/* *--------------------------------bannar 2 -------------------------------------------------* */
+.second-banner{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+   
+}
+.img1{
+  
+    height: 100%;
+    width: 60vw !important;
+    
+}
+.img2{
+    width: 186px;
+    
+  
+}
+.img3{
+    width: 486px;
+    max-width: 485px;
+    margin-top: 87.8px;
+}
+.img4{
+    width: 350.9px;
+    /* max-width: 349.8px; */
+    margin-top: 22.8px;
+    align-items: center;
+}
