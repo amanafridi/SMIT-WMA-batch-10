@@ -201,21 +201,20 @@ body {
     background-color: black;
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     align-items: center;
    
+   
 }
 .img1{
-  
     height: 100%;
-    width: 60vw !important;
-    
+    width: 60vw !important; 
+    z-index: 0;
 }
 .img2{
     width: 186px;
-    
-  
+    z-index: 1;
 }
 .img3{
     width: 486px;
@@ -224,7 +223,41 @@ body {
 }
 .img4{
     width: 350.9px;
-    /* max-width: 349.8px; */
+    max-width: 349.8px;
     margin-top: 22.8px;
     align-items: center;
 }
+
+/* ------------------------------banner #3 -------------------------------------------------- */
+.third-banner{
+    background-image: url(/images/banner3/banner3-bg.png);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    width: 100%;
+    background-position: 50% center;
+}
+.b3{
+    display: flex;
+    justify-content: center;
+}
+.b3-img1{
+    width: 371px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.b3-img2{
+    width: 362px;
+    margin-top: 180px;
+    margin-left: 50px;
+}
+.b3-h{
+    /* font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif; */
+    font-weight: 400;
+    margin: 0;
+    color: #fff;
+}
+.banner3-btn{
+    margin-left: 120px;
+    padding: 0.4em 1.85em;
+}
+/* ------------------------------Banner #4 ------------------------------------------------------- */
