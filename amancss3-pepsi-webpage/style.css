@@ -54,6 +54,7 @@ body {
     position: sticky;
     top: 0px;
     background-color: #0065C3;
+    z-index: 1000;
 }
 
 .my-theme>li {
@@ -202,30 +203,74 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    justify-content: center;
-    align-items: center;
-   
-   
+    height: 668px;
+}
+.img11{
+    position: relative;
+    width: 880px;
+    height: 100%;
+    
 }
 .img1{
     height: 100%;
-    width: 60vw !important; 
-    z-index: 0;
+    width: 100%; 
+        
+}
+.img22{
+    position: absolute;
+    top: 100px;
+    left: 490px;
+    
 }
 .img2{
-    width: 186px;
-    z-index: 1;
+    width: 186px; 
+     
+}
+.img34{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100%;
 }
 .img3{
-    width: 486px;
-    max-width: 485px;
-    margin-top: 87.8px;
+    width: 100%;
 }
 .img4{
-    width: 350.9px;
-    max-width: 349.8px;
-    margin-top: 22.8px;
-    align-items: center;
+    width: 60%;
+    margin-top: 22px;
+}
+.img56{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.portion1{
+    width: 225px;
+    height: 150px;
+    background-color: #fff;
+}
+.portion2{
+    width: 225px;
+    height: 150px;
+    background-color: #fff;
+}
+.img78{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+}
+.portion3{
+    width: 225px; 
+}
+.portion4{
+    width: 225px;  
 }
 
 /* ------------------------------banner #3 -------------------------------------------------- */
@@ -235,10 +280,8 @@ body {
     background-size: cover;
     width: 100%;
     background-position: 50% center;
-}
-.b3{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .b3-img1{
     width: 371px;
@@ -251,10 +294,11 @@ body {
     margin-left: 50px;
 }
 .b3-h{
-    /* font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif; */
-    font-weight: 400;
-    margin: 0;
+    font-weight: 1000;
+    font-size: 20px;
+    text-align: center;
     color: #fff;
+
 }
 .banner3-btn{
     margin-left: 120px;
@@ -277,4 +321,7 @@ body {
 .banner-img11 > div > h4{
     
 }
+
+
+/* --------------------------------------banner # 4----------------------------------------------- */
 
