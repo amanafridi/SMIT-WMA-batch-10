@@ -463,7 +463,39 @@ color: white;
 }
 .b9-bottom{
     display: flex;
-    width: 1300px;
-    height: 247px;
-    margin: auto;
+    justify-content: center;
+}
+.b9-bottom>img{
+    align-content: center;
+    width: 239px;
+    height: 239px;
+}
+/* --------------------------------------banner # 10----------------------------------------------- */
+.my-footer{
+    background-color: #0065C3;
+    height: 288px;
+    align-items:center ;
+
+}
+.my-footer>li{
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: 1200;
+    letter-spacing: 2px;
+}
+.lihover{
+    color: #ffffff;
+}
+.lihover:hover{
+    color: #abd6ff;
+}
+
+.many-icons{
+display: flex;
+flex-direction: row;
+color: #ffffff;
+}
+.many-icons>i{
+    background-color: #ffffff;
+    font-size: 10px;
 }
