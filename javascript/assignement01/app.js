@@ -207,3 +207,61 @@
 // console.log("Total cost of your order is "+ total);
 
 // ---------------------------------chapter05 / Ques.08--------------------------------
+// var totalMarks=1200;
+// var marksObtained=834;
+
+// var percent=marksObtained/totalMarks*100;
+// console.log("Total marks: " +totalMarks);
+// console.log("Marks obtained: "+marksObtained);
+// console.log("Percentage:"+percent+"%");
+
+
+// ---------------------------------chapter05 / Ques.09--------------------------------
+// var dollar=10;
+// var riyal=25;
+
+// var pkr=(dollar*104.80)+(riyal*28);
+// console.log("Total Currency in PKR: "+pkr)
+
+// ---------------------------------chapter05 / Ques.10--------------------------------
+
+// var num=27;
+// var total=num+5*10/2;
+// console.log("Total is: "+ total);
+
+
+// ---------------------------------chapter05 / Ques.11--------------------------------
+
+// var currentYear=2023;
+// var birthYear=1996;
+
+// var age=currentYear-birthYear;
+// console.log("Current year: "+ currentYear);
+// console.log("Birth year: "+birthYear);
+// console.log("Your Age is: "+age);
+
+
+// ---------------------------------chapter05 / Ques.12--------------------------------
+
+// var radius=20;
+// var pie=3.142;
+// var circum=2*pie*radius;
+
+// console.log("The Circumference is: " + circum);
+
+// var area=pie*(radius*radius);
+// console.log("The area is: "+area);
+
+
+// ---------------------------------chapter05 / Ques.08--------------------------------
+// var snack="Lays";
+// var age=15;
+// var maxAge=65;
+// var maxAmount=3;
+
+// var totalSnackes=(maxAge-age)*maxAmount;
+// console.log("Favourite Snack "+snack);
+// console.log("Current age: " +age);
+// console.log("Estimated maximum age: "+maxAge);
+// console.log("Amount of snack per day: "+maxAmount);
+// console.log("You will need "+totalSnackes+" to last you until the ripe old age of "+maxAge);
