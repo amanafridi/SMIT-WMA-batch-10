@@ -36,14 +36,18 @@ body{
 }
 
 .Javascript{
-    display: flex;
-    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    margin-left:500px ;
+    width: 500px;
+    height: auto;
     border: 2px solid lightblue;
     border-radius: 5px;
     box-shadow: 0 2px 9px 0 rgba(0,0,0,.20), inset 0 -9px 0 0 #D4D1CA;
     padding-right: 30px;
 }
-/* .Javascript>ul>li>a{
-
-} */
+.Javascript>ul>li{
+    color: white;
+    list-style-type: none;
+}
 
