@@ -204,6 +204,188 @@
 
 //***********************chap # 9-11  question # 07**********************
 
+// var guess = +prompt("Guess the Number")
+// var numOne = 5;
+// if(numOne === guess){
+//     console.log("Bingo! Correct answer")
+// }else if (numOne+1 === guess){
+//     console.log("“Close enough to the correct answer")
+// }else{
+//     console.log("incorrect number")
+// }
+
+//***********************chap # 9-11  question # 08**********************
+
+// var num = +prompt("enter the number")
+// if(num%3 === 0){
+//     console.log(num+" Number is divisible by 3")
+// }else {
+//     console.log(num+" is not divisible by 3")
+// }
+
+//***********************chap # 9-11  question # 09**********************
+
+// var num = +prompt("enter the number")
+// if(num%2 === 0){
+//     console.log(num+" is even")
+// }else if (num%2 !== 0){
+//     console.log(num+" is odd")
+// }else{
+//     console.log("Incorrect input")
+// }
+
+//***********************chap # 9-11  question # 10**********************
+
+// var temperature =+prompt("Enter the Temperature")
+// if(temperature > 40){
+//     console.log("It is too hot outside")
+// }else if(temperature > 30){
+//     console.log("The Weather today is Normal")
+// }else if(temperature > 20){
+//     console.log("Today’s Weather is cool")
+// }else if(temperature > 10){
+//     console.log("OMG! Today’s weather is so Cool")
+// }else{
+//     console.log("Dont idea")
+// }
+
+//***********************chap # 9-11  question # 11**********************
+
+// firstNum=+prompt("Enter first number") , secondNum=+prompt("Enter second number");
+// operation=prompt("What calculation you want? \n(+, -, *, /, %):")
+// var mult= firstNum*secondNum;
+// var divid= firstNum/secondNum;
+// var plus= firstNum+secondNum;
+// var minus=firstNum-secondNum;
+// var percent= firstNum/secondNum*100;
+// if(operation === "*"){
+//     console.log(firstNum+" x "+secondNum+" = "+mult);
+// }else if (operation === "/"){
+//     console.log(firstNum+" / "+secondNum+" = "+divid);
+// }else if (operation === '+'){
+//     console.log(firstNum+" + "+secondNum+" = "+plus);
+// }else if (operation === '-'){
+//     console.log(firstNum+" - "+secondNum+" = "+minus);
+// }else if (operation === "%"){
+//     console.log(firstNum+" % "+secondNum+" = "+percent);
+// }else{
+//     console.log("Your operation input is invalid")
+// }
+
+//***********************chap # 12-13  question # 1**********************
+
+
+// var user=prompt("Enter a number or String");
+// var charCode= user.charCodeAt(0);
+// if (user >= 48 || charCode <=57){
+//     console.log("This is a number")
+// }else if(charCode >= 65 && charCode <= 90) {
+//     console.log("The input is an uppercase letter.");
+// } else if (charCode >= 97 && charCode <= 122) {
+//     console.log("The input is a lowercase letter.");
+// } else {
+//     console.log("The input is not a number or a letter.");
+// }
+
+//***********************chap # 12-13  question # 2**********************
+
+// var intgerOne =+prompt("enter the first integer")
+// var intgerTwo =+prompt("enter the second integer")
+// if (intgerOne > intgerTwo){
+//     console.log(intgerOne)
+// }else if(intgerTwo > intgerOne){
+//     console.log(intgerTwo)
+// }else if(intgerOne === intgerTwo){
+//     console.log("Number is equal")
+// }else{
+// console.log("invalid input")
+// }
+
+//***********************chap # 12-13  question # 3**********************
+
+// var num=+prompt("Enter a number.");
+// if (num < 0){
+//     console.log("Number is negative")
+// }else if (num > 0){
+//     console.log("Number is positive")
+// }else if (num === 0){
+//     console.log("Number is equal to zero")
+// }else{
+//     console.log("Input is invalid")
+// }
+
+//***********************chap # 12-13  question # 4**********************
+
+// var UserInput = prompt("enter the letter")
+// if (UserInput.length === 1){
+//     if(UserInput === "a"|| UserInput === "e" || UserInput === "i" || UserInput === "o" || UserInput === "u"){
+//         console.log("letter is vowel")  
+// }
+// else{
+//     console.log("letter is not vowel")
+// }
+// }else{
+//     console.log("invalid input")
+// }
+
+//***********************chap # 12-13  question # 5**********************
+
+// var pass = "aman123";
+// var UserInput = prompt("enter password")
+// if(pass === UserInput){
+//     console.log("correct password")
+// }else if(pass !== UserInput || length === 0){
+//     console.log("incorrect password")
+// }else{
+//     console.log("Please enter your password")
+// }
+
+//***********************chap # 12-13  question # 6**********************
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// console.log(greeting)
+// }else{
+// greeting = "Good evening";
+// console.log(greeting);
+// }
+
+//***********************chap # 12-13  question # 7**********************
+
+// var num=+prompt("Enter time in 24 hours format");
+// if(num >= 0000 && num < 1200){
+//     console.log("Good Morning")
+// }else if(num >=1200 && num < 1700){
+//     console.log("Good Afternoon")
+// }else if(num >= 1700 && num < 2100){
+//     console.log("Good Evening")
+// }else if(num >= 2100 && num <= 2359){
+//     console.log("Good Night")
+// }else{
+//     console.log("Invalid input")
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
