@@ -66,6 +66,40 @@ body{
     font-weight: 300;
 }
 
+.info{
+    padding-top: 40px;
+}
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.info>ul{
+    position: relative;
+}
+
+.info>ul>li{
+    position: relative;
+    margin: 10px 0px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.info>ul>li .icon{
+    display: inline-block;
+    color: #03a9f4;
+    width: 30px;
+    font-size: 18px;
+}
+
+.info>ul>li>span{
+    color: #fff;
+    font-family: 300;
+}
+
 .main .right_side {
     position: relative;
     background-color:#fff ;
