@@ -100,6 +100,32 @@ body{
     font-family: 300;
 }
 
+.education>ul{
+    list-style-type: none;
+}
+
+.education>ul li{
+    margin-bottom: 15px;
+}
+
+.education>{
+    margin: 10px;
+}
+
+.education h5{
+    color: #03a9f4;
+    font-weight: 500;   
+    margin-bottom: 10px;
+}
+
+.education h4{
+    color: #fff;
+    font-weight: 500;
+    margin: 10px;
+}
+
+
+
 .main .right_side {
     position: relative;
     background-color:#fff ;
