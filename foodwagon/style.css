@@ -90,6 +90,8 @@
 
 .navicon>i{
    color:#FFB30E;
+   width: 100%;
+   height: 661px;
 }
 
 .nav3btn>button{
@@ -104,5 +106,41 @@
 }
 
 /* ----------------------------------banner1----------------------------- */
+.banner1{
+    background: #fbc527; 
+    height: 501px;
+    width: 100%;
+}
 
+.rigdown{
+    display: flex;
+    width: 430px;
+    height: 65px;
+    background-color: white;
+    gap: 15px;
+}
+
+.rigleft{
+    /* position: absolute; */
+    border-radius: 8px;
+    
+}
+
+.rigleft>button{
+    width: 100%;
+    height: 25px;
+}
+
+.rigleft>button>span{
+    color: #F17228;
+    display: flex;
+}
+
+.rigleft>button>i {
+    color: #F17228;
+}
+
+.rigrig>button>i{
+    color: #757575;
+}
 
